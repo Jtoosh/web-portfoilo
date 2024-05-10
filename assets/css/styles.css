@@ -1,4 +1,56 @@
-*{
-    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-color: aquamarine;
+html{
+    background-image: url(https://images.pexels.com/photos/3297593/pexels-photo-3297593.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    margin: 0;
+    
+}
+nav{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: -7px;
+}
+#headshot{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+th{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: Inter, sans-serif;
+}
+td{
+    font-family: Inter, sans-serif;
+}
+li{
+    font-family: Inter, sans-serif;
+}
+
+table{
+    border: 5px solid black;
+}
+th{
+    border: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+}
+#complete{
+    background-color: rgb(136, 246, 136)
+}
+#incomplete{
+    background-color: rgb(246, 136, 136)
+}
+#inProgress{
+    background-color: rgb(245, 245, 145)
 }
